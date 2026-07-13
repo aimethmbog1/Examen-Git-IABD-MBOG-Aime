@@ -1,6 +1,8 @@
 import gradio as gr
+import spaces
 
 
+@spaces.GPU
 def greet(name):
     return f"Hello {name}!"
 
